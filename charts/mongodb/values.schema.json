@@ -79,14 +79,14 @@
         "customLivenessProbe": {
             "type": "object"
         },
-        "customUsers": {
-            "type": "array"
-        },
         "customReadinessProbe": {
             "type": "object"
         },
         "customStartupProbe": {
             "type": "object"
+        },
+        "customUsers": {
+            "type": "array"
         },
         "extraEnvVars": {
             "type": "array"
