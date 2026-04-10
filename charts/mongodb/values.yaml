@@ -80,7 +80,7 @@ config:
       bindIpAll: true
   ## param config.existingConfigmap Name of an existing Configmap to use instead of creating one
   existingConfigmap: ""
-  ## param config.existingConfigmapKey Name of the key that will hold configuration 
+  ## param config.existingConfigmapKey Name of the key that will hold configuration
   existingConfigmapKey: ""
 
 ## @section customUsers Optional users to be created at initialisation
@@ -386,7 +386,7 @@ initContainer:
     #   memory: 128Mi
 
 ## @section extraInitContainers Optional extra init containers configuration
-extraInitContainers:  []
+extraInitContainers: []
 
 ## @section replicaSet Parameters to build a MongoDB replica set (HA mode)
 replicaSet:
